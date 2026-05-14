@@ -57,6 +57,13 @@ header {
     padding: 110px 0 90px;
     overflow: hidden;
     border-bottom: 1px solid var(--border);
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-bg-grid {
@@ -81,10 +88,10 @@ header {
 header h1 {
     font-family: var(--font-head);
     font-size: clamp(3.5rem, 8vw, 7rem);
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1;
     color: var(--white);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
     margin-bottom: 24px;
 }
 
@@ -97,6 +104,8 @@ header h1 {
     max-width: 620px;
     margin-bottom: 40px;
     line-height: 1.7;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social-links {
