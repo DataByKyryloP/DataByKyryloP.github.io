@@ -356,12 +356,12 @@ nav ul li a:hover::after { transform: scaleX(1); }
 
 .project-image {
     width: 100%;
-    height: auto;
-    border-radius: 6px;
-    margin: 10px 0 6px 0;
-    border: 1px solid var(--border);
+    max-height: 320px;
     object-fit: contain;
-    background: var(--navy-light);
+    background: #0D1B2A;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 8px;
 }
 
 
