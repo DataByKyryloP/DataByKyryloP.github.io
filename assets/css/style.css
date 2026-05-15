@@ -364,24 +364,50 @@ nav ul li a:hover::after { transform: scaleX(1); }
     margin-bottom: 12px;
 }
 
-/* Vertical images (SHEIN) */
-.project-card img[src*="shein"] {
+/* ================================
+   PROJECT IMAGE SYSTEM (CLEAN)
+   ================================ */
+
+.project-image-wrapper {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: #0D1B2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* base image rule */
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* vertical (SHEIN) */
+.project-image-wrapper.vertical {
+    aspect-ratio: 504 / 781;
     max-height: 420px;
-    object-fit: contain;
 }
 
-/* Medium dashboard images (FORMA, OLIST, SPAIN) */
-.project-card img[src*="forma"],
-.project-card img[src*="olist"],
-.project-card img[src*="spain"] {
+/* medium (OLIST, SPAIN) */
+.project-image-wrapper.medium {
+    aspect-ratio: 580 / 590;
     max-height: 320px;
-    object-fit: contain;
 }
 
-/* Wide images (AMAZON funnel) */
-.project-card img[src*="amazon"] {
-    max-height: 260px;
-    object-fit: contain;
+/* wide (FORMA, AMAZON) */
+.project-image-wrapper.wide {
+    aspect-ratio: 16 / 9;
+    max-height: 280px;
+}
+
+/* hover polish */
+.project-card:hover .project-image-wrapper {
+    border-color: rgba(11, 206, 172, 0.35);
 }
 
 
