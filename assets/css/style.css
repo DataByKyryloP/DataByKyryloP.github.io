@@ -267,10 +267,11 @@ nav ul li a:hover::after { transform: scaleX(1); }
     border: 1px solid var(--border);
     border-radius: 4px;
     padding: 32px;
+
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    transition: border-color 0.25s ease, transform 0.25s ease;
+
+    height: 100%;
 }
 .project-card:hover {
     border-color: rgba(11, 206, 172, 0.4);
@@ -386,6 +387,19 @@ nav ul li a:hover::after { transform: scaleX(1); }
     margin-top: 12px;
     margin-bottom: 12px;
     object-fit: contain;
+}
+/* make image section flexible so cards equalize vertically */
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* force highlights + buttons to sit at bottom consistently */
+.project-highlights {
+    margin-top: auto;
 }
 
 /* keep visual balance but DO NOT crop */
