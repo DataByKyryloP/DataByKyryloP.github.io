@@ -280,10 +280,8 @@
                     <a href="https://medium.com/@databykyrylop" target="_blank"><i class="fab fa-medium"></i> Medium</a>
                 </div>
             </div>
-            <form action="https://formsubmit.co/vasylloves@ukr.net" method="POST" class="contact-form">
-                <!-- Replace with your actual email above -->
-                <input type="hidden" name="_subject" value="Portfolio Contact">
-                <input type="hidden" name="_captcha" value="false">
+            <form name="contact" method="POST" data-netlify="true" class="contact-form">
+                <input type="hidden" name="form-name" value="contact">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Your name" required>
