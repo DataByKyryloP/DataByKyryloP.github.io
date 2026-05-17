@@ -39,6 +39,7 @@ I specialize in:
 
 ## Contact
 GitHub: https://github.com/DataByKyryloP
-LinkedIn: (will add later)
 Medium: https://databykyrylop.medium.com/
-Email: (will add later)
+Email: databykyrylop@gmail.com
+LinkedIn: (will add later)
+
