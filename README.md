@@ -41,5 +41,5 @@ I specialize in:
 GitHub: https://github.com/DataByKyryloP
 Medium: https://databykyrylop.medium.com/
 Email: databykyrylop@gmail.com
-LinkedIn: (will add later)
+LinkedIn: https://www.linkedin.com/in/kyrylo-p-033073120/
 
